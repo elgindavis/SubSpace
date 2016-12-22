@@ -2,7 +2,7 @@ The first component of the website was to find a base html template, which we fo
 image from upslash.com to use for the background photo. The html template was used to make index.html, the root page, and all the other 
 pages thereafter. The startboostrap dowload also came with css that allowed us to use certain functions and fonts and scripts.
 
-The website was launched through apache50 and is located at https://ide50-elgindavis.cs50.io. First the root page is to be configured,
+The website was launched through apache50 and was located at https://ide50-elgindavis.cs50.io. First the root page is to be configured,
 rendered by /index.html, where you can go to the "about" section, sign up for the site, or log in with a pre-existing account.
 The sign up requires an username, password, and re-typed password (that will be hashed) to be stored in the phpmyadmin sql database.
 The sign up, when successful, logs the user in for the current session just like the log-in page does. The sign up and register
@@ -24,6 +24,3 @@ was done correctly, letting the user know that the request was made and has ente
 back to the home page.
 
 In total we used 12 different .php files and 10 different html files to bring together this website.
-
-
-
