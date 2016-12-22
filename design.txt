@@ -1,0 +1,29 @@
+The first component of the website was to find a base html template, which we found from startbootstrap.com. Then we found an online
+image from upslash.com to use for the background photo. The html template was used to make index.html, the root page, and all the other 
+pages thereafter. The startboostrap dowload also came with css that allowed us to use certain functions and fonts and scripts.
+
+The website was launched through apache50 and is located at https://ide50-elgindavis.cs50.io. First the root page is to be configured,
+rendered by /index.html, where you can go to the "about" section, sign up for the site, or log in with a pre-existing account.
+The sign up requires an username, password, and re-typed password (that will be hashed) to be stored in the phpmyadmin sql database.
+The sign up, when successful, logs the user in for the current session just like the log-in page does. The sign up and register
+forms both require php display forms and php back end forms.
+
+Once signed up and logged in, the user has the option to submit an event, another php-based file that requires a display form and
+a back end functional form. Here the user can submit an event with a title, date, time, location, and description dynamically to our sql database
+for review and possible addition to our managed public calendar. The user can also access an html file for said public calendar
+and interact with it through his/her Google account, fully accessing the functions of the regular Google calendar where one can save events
+and find events on the map. There is also an html file that allows users to see and interact solely with an embedded Google map that is
+ centered around Harvard University with the ability to star/favorite locations- also powered by separate Google account sign in.
+
+Errors- apology.php is the file used to tell the user if the login or sign in was incorrect or incongruous and has links back to both
+log in or sign up or the home /index.html. The file /event_error.html tells the user if they left a field blank on the submission
+form to go back and fill in all parts of the form, providing a link to resubmit the form.
+Successes- /homepage.html is the site that is accessed if the user logs in or signs up correctly, giving them access to the calendar, map,
+and submit events features of the sire. The page /submission_success.html is the page that is loaded if the submission of the event form
+was done correctly, letting the user know that the request was made and has entered the sql database to be reviewed, and also providing a link 
+back to the home page.
+
+In total we used 12 different .php files and 10 different html files to bring together this website.
+
+
+
